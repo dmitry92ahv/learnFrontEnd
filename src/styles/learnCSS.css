@@ -1,0 +1,116 @@
+/*тут комменты так выглядят*/
+
+/*
+Три основные понятия: 
+
+Селекторы
+Свойства
+Значения
+
+Селектор - указатель на то что нужно сделать красивым(можно комбинировать больше по ссылке https://webref.ru/css/selector)
+
+Свойство - определяет какую характеристику объекта будем менять
+
+Значение - то на что меняем свойство
+*/
+
+
+/*Базовые селекторы*/
+
+body{
+}
+
+a{
+
+}
+
+h3{
+
+}
+
+/*селекторы по классу*/
+.nameClass{
+
+}
+
+/*селектор по ID (ВАЖНО! ID - не число и начинается не с цифры)*/
+#oid1{
+color: white; 
+background-color: black
+}
+
+
+/*
+Стиль можно писать прям в HTML в атрибуте style - плохой способ
+
+<div style="color: white; background-color: black">
+  Белый текст на черном фоне
+</div>
+
+*/
+
+
+/*
+Либо внутре head тоже в самом HTML - тоже не гуд
+
+<head>
+  <style>
+    .unique-text {
+      color: white; 
+      background-color: black;
+    }
+  </style>
+</head>
+
+...
+
+<div class=”unique-text”>
+  Белый текст на черном фоне
+</div>
+
+*/
+
+/*
+Лучший способ писать CSS в отдельном файле как этот и подключать его в head в HTML строкой ниже
+
+<link rel=”stylesheet” href=”learnCSS.css”>
+*/
+
+
+/*Основные свойства большу тут:  http://www.w3schools.com/cssref/pr_class_display.asp*/
+
+p{
+	display: inline; /*так же может быть block или inline-block  помогает расположить элемент относительно других*/
+	width: 100px;			/*ширина не работает для строчных элементов может быть min-width / max-width*/
+	height: 20px;		/*высота тоже не работает для строчных элементов может быть min-height / max-height*/
+	padding: 1px;	/*внутренний отступ*/
+	margin: 1px;		/*внешний отступ*/
+	box-sizing: content-box; /*для изменения алгоритма расчета ширины еще может быть box-sizing / border-box(размер измеряется по внешенму отступу). По умолчанию content-box(размер измеряется по внутреннему отсупу)*/
+	border: 4px dashed rgb(0, 110, 255);		/*изменяет вид границы элемента border: border-width border-style border-color*/
+	border-radius: 10px;  /*закругления границы https://jsfiddle.net/hartzler/uLk1kkyd/*/
+	/*background- фон. не может влиять на внешние границы http://www.w3schools.com/cssref/css3_pr_background.asp*/
+	background-color: #ffffff; /*по умолчанию transparent*/
+	background-image: url(./images/background.jpg); /*По умолчанию располагает изображение в левом верхнем углу элемента. Размер изображения при этом не подстраивается под размеры элемента.*/
+	background-position: left center; /*На входе два значения — положение по горизонтали и по вертикали. Задаются любыми единицами измерения.*/
+	background-size: 100% auto;
+	background-repeat: no-repeat; /*Определяет, как будет повторяться фоновое изображение.*/	
+}
+
+p:hover {
+	background-color: rgb(179, 71, 241);
+  }
+  
+
+/*свойства для работы с текстом https://fonts.google.com/
+h1{
+font-size: ;
+font-family: ;
+color: ;
+text-align: ;
+text-decoration: ;
+font-style: ;
+letter-spacing: ;
+text-indent: ;
+text-transform: ;
+}
+*/
