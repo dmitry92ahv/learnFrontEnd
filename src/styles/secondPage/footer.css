@@ -1,0 +1,15 @@
+.footer{
+    background-color: rgb(174, 232, 254);
+    border-radius: 5px;
+    display: block;
+    height: 1em;
+    padding: 30px;
+    bottom: 10px;
+    justify-content: center;
+    /*width: 100%;*/
+}
+
+.footer__content{
+    text-align: center;
+    vertical-align: middle;
+}

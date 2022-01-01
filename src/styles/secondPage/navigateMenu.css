@@ -1,0 +1,13 @@
+.nav{
+    background-color: rgb(174, 232, 254);
+    border-radius: 5px;
+    display: block;
+    height: 1em;
+    padding: 15px;
+    margin: 0 0 10px 0;
+}
+
+.nav__content{
+    text-align: right;
+    font-weight: bold;
+}

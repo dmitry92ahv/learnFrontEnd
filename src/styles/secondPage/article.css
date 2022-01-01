@@ -1,0 +1,12 @@
+.article{
+    background-color: rgb(100, 165, 211);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 0 5px 0;
+}
+
+.article-section{
+    background-color: snow;
+    padding: 10px;
+    border-radius: 5px;
+}

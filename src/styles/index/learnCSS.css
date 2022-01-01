@@ -33,6 +33,21 @@ h3{
 
 }
 
+.nextPage{
+	margin: 20px;
+	padding: 20px;
+	width: 150px;
+	border: 4px dashed rgb(6, 218, 24);
+	border-radius: 20px;
+	font-family: Arial;
+	font-size: 20px;
+	background-color: chocolate;
+	color: darkblue;
+}
+.nextPage:hover{
+	color: chocolate;
+	background-color: darkblue;
+}
 /*селектор по ID (ВАЖНО! ID - не число и начинается не с цифры)*/
 #oid1{
 color: white; 
