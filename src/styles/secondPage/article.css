@@ -10,3 +10,25 @@
     padding: 10px;
     border-radius: 5px;
 }
+
+div::selection{
+    background: rgb(255, 137, 239);
+}
+
+.article-table{
+    border: 3px solid;
+    border-color: tomato;
+}
+
+.article-table__col{
+    background-color: violet;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+td:hover{
+    background-color: yellowgreen;
+    border: 3px solid rgb(0, 255, 191);
+}
