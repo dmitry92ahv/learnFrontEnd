@@ -1,0 +1,11 @@
+.header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20%;
+}
+.head-content{
+    font-weight: bold;
+    color: rgb(55,55,55);
+    font-style: italic;
+    font-size: 24px;
+}

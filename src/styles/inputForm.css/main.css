@@ -1,0 +1,47 @@
+.main{
+    margin: 0 20% 0 20%;
+    margin-bottom: 40px;
+    background-color: white;
+    box-shadow: 0 0 15px rgb(110, 110, 110);
+    padding: 25px 25px 25px 25px;
+}
+
+.main-section{
+    font-size: 22px;
+    color: rgb(54,54,54);
+    font-weight: bold;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+form{
+    margin: 0 20% 0 20%;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    margin: 10px 0 0 0;
+    color: rgb(54,54,54);
+}
+
+input{
+    display: block;
+    margin: 10px 0 0 0;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(247,249,252);
+    border-style: hidden;
+    width: auto;
+}
+
+.main-section__ratio{
+    display: inline;
+}
+
+.main-section__submit{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(113,125,199);
+}
